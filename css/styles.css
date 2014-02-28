@@ -1,0 +1,13 @@
+td {
+  height: 120px;
+  width: 100px;
+  border-width: 5px;
+  font-size: 70px;
+  text-align: center;
+}
+
+#gameboard {
+  height: 360px;
+  width: 300px;
+  border-width: 20px
+}
