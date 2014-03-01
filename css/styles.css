@@ -19,7 +19,12 @@ h1 {
 
 img {
   width: 95%;
-  
+
+}
+#result {
+  font-size: 30px;
+  color: red;
+  vertical-align: center;
 }
 .tictactoe-table {
   background:rgba(225, 225, 225, 0.7);

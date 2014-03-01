@@ -110,12 +110,12 @@ $(document).ready(function() {
         
         if (board.didWin(Game.players[1]) === true) {
           winner = true;
-          alert("Player O wins!");
+          $("#result").text("Sad Bald Man wins!");
         } else if (board.didWin(Game.players[0]) === true) {
           winner = true;
-          alert("Player X wins!");
+          $("#result").text("Banana Man wins!");
         } else if (turnCounter === 0) {          
-          alert("Tie Game")
+          $("#result").text("Everyone loses...");
         }
     };
     currentPlayer = Game.nextTurn(currentPlayer);
