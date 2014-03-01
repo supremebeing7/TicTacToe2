@@ -1,13 +1,39 @@
-td {
-  height: 120px;
-  width: 100px;
-  border-width: 5px;
-  font-size: 70px;
+body { 
+  background: url(http://willballard.com/wp-content/uploads/2013/07/IMG_0153.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  margin-top: 10%;
+
+  padding: 25px 0px 50px;
   text-align: center;
 }
-
-#gameboard {
-  height: 360px;
+h1 {
+  background:rgba(225, 225, 225, 0.7);
   width: 300px;
-  border-width: 20px
+  margin: 0 auto;
+}
+
+img {
+  width: 95%;
+  
+}
+.tictactoe-table {
+  background:rgba(225, 225, 225, 0.7);
+  width: 300px;
+  margin: 0 auto;
+}
+.cell {
+  height: 120px;
+  width: 100px;
+  font-size: 70px;
+  text-align: center;
+  border:3px solid black;
+  float:left;
+}
+.row {
+  margin: 0 auto;
 }
